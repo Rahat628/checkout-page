@@ -14,10 +14,16 @@ body {
 }
 
 /* common styles */
+input:focus {
+    color: #333;
+    font-weight: 600;
+}
+
 .text-title {
     color: #333;
     font-size: 18px;
     font-weight: 600;
+    text-align: start;
 }
 
 .button-title {
@@ -39,6 +45,8 @@ body {
     width: 93%;
     padding-left: 30px;
     margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid #828282;
 
 }
 
@@ -87,6 +95,7 @@ form label>i {
     height: 54px;
     margin-top: 20px;
     margin-left: 340px;
+    text-align: center;
 }
 
 
@@ -94,6 +103,23 @@ form label>i {
 .cart {
     border-radius: 12px;
     background: #F2F2F2;
+    width: 383px;
+    height: 535px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.cart-img {
+    width: 175.703px;
+    height: 135.914px;
+    transform: rotate(-0.02deg);
+    flex-shrink: 0;
+}
+
+.cart-img img {
+    width: 100%;
+    border-radius: 10px;
+
 }
 
 .number-text {
@@ -112,6 +138,7 @@ form label>i {
     border-radius: 12px;
     border: 1px solid #828282;
     display: flex;
+    flex: 1;
     justify-content: space-around;
     align-items: center;
 }
@@ -120,4 +147,48 @@ form label>i {
     width: 24.226px;
     height: 24.226px;
     flex-shrink: 0;
+}
+
+.back,
+.shoes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cart-outro {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 340px;
+    height: 1px;
+    background: #BDBDBD;
+}
+
+.partA {
+    padding-left: 20px;
+}
+
+.partB {
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 150px;
+}
+@media screen and (max-width:576px) {
+    main{
+        flex-direction: column-reverse;
+        flex: 1;
+        gap: 50px;
+    }
+    .cart{
+        text-align: center;
+    }
 }
