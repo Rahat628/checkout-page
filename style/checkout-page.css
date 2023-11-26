@@ -1,0 +1,123 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 100px;
+}
+
+/* common styles */
+.text-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-title {
+    color: #4F4F4F;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button-text {
+    color: #828282;
+    font-weight: 600;
+}
+
+.btn-style {
+    color: #828282;
+    font-weight: 600;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 93%;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.information {
+    width: 500px;
+}
+
+/* header */
+header h4 {
+    color: #4E5150;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/* icons setting */
+.contact-info {
+    margin-bottom: 50px;
+}
+
+form label {
+    position: relative;
+}
+
+form label>i {
+    position: absolute;
+    top: 37px;
+    left: 13px;
+}
+
+.shipping-part {
+    display: flex;
+    flex: 1;
+    gap: 10px
+}
+
+.shipping-part input {
+    width: 80%;
+}
+
+#submit-btn {
+    color: #FFFFFF;
+    border-radius: 12px;
+    background: #F2994A;
+    width: 166px;
+    height: 54px;
+    margin-top: 20px;
+    margin-left: 340px;
+}
+
+
+/* cart section */
+.cart {
+    border-radius: 12px;
+    background: #F2F2F2;
+}
+
+.number-text {
+    color: #F2994A;
+    font-weight: 600;
+}
+
+.deleted {
+    color: #4E5150;
+    text-decoration-line: line-through;
+}
+
+.number-section {
+    width: 134.254px;
+    height: 52px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 24.226px;
+    height: 24.226px;
+    flex-shrink: 0;
+}
